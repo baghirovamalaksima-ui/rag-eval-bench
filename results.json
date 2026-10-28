@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "python": "3.12.14",
+    "k": 3,
+    "input_sha256": "772fc68ede515ab8e5316cb6a8c1967868cba46239074d2e26ac777122e594b3",
+    "mode": "offline-extractive-baseline"
+  },
+  "summary": {
+    "precision@3": 0.3333333333333333,
+    "recall@3": 1.0,
+    "mrr@3": 0.9285714285714286,
+    "cases": 12,
+    "answerable_cases": 7,
+    "answered_cases": 8,
+    "accuracy": 0.75,
+    "coverage": 0.6666666666666666,
+    "quote_faithfulness": 1.0
+  },
+  "rows": [
+    {
+      "id": "vacation",
+      "slice": "direct",
+      "retrieval": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      },
+      "answered": true,
+      "faithful": true,
+      "correct": true
+    },
+    {
+      "id": "remote",
+      "slice": "direct",
+      "retrieval": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      },
+      "answered": true,
+      "faithful": true,
+      "correct": true
+    },
+    {
+      "id": "security",
+      "slice": "direct",
+      "retrieval": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      },
+      "answered": true,
+      "faithful": true,
+      "correct": true
+    },
+    {
+      "id": "learning",
+      "slice": "direct",
+      "retrieval": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      },
+      "answered": true,
+      "faithful": true,
+      "correct": true
+    },
+    {
+      "id": "vpn",
+      "slice": "direct",
+      "retrieval": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      },
+      "answered": true,
+      "faithful": true,
+      "correct": true
+    },
+    {
+      "id": "approval",
+      "slice": "direct",
+      "retrieval": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 1.0
+      },
+      "answered": true,
+      "faithful": true,
+      "correct": true
+    },
+    {
+      "id": "unknown",
+      "slice": "unanswerable",
+      "retrieval": null,
+      "answered": false,
+      "faithful": null,
+      "correct": true
+    },
+    {
+      "id": "space",
+      "slice": "unanswerable",
+      "retrieval": null,
+      "answered": false,
+      "faithful": null,
+      "correct": true
+    },
+    {
+      "id": "paraphrase",
+      "slice": "paraphrase",
+      "retrieval": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "mrr": 0.5
+      },
+      "answered": false,
+      "faithful": null,
+      "correct": false
+    },
+    {
+      "id": "false-premise",
+      "slice": "false-premise",
+      "retrieval": null,
+      "answered": true,
+      "faithful": true,
+      "correct": false
+    },
+    {
+      "id": "negation",
+      "slice": "negation",
+      "retrieval": null,
+      "answered": true,
+      "faithful": true,
+      "correct": false
+    },
+    {
+      "id": "injection",
+      "slice": "injection",
+      "retrieval": null,
+      "answered": false,
+      "faithful": null,
+      "correct": true
+    }
+  ]
+}

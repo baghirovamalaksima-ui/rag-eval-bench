@@ -1,0 +1,2 @@
+# Application uses Python standard library only.
+pytest==8.3.5
