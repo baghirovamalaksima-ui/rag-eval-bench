@@ -39,7 +39,8 @@ def grounded(claims, evidence):
     return bool(claims) and all(
         isinstance(c, dict) and isinstance(c.get('quote'), str)
         and len(c['quote'].strip()) >= 12
-        and c.get('source') in sources and c['quote'] in sources[c['source']]
+        and isinstance(c.get('source'), str)
+        and c['source'] in sources and c['quote'] in sources[c['source']]
         for c in claims)
 
 def ask(question, chunks, k=3, model=None):
